@@ -101,7 +101,7 @@ if($_GET['o'] == 'add') {
 			  					<div class="form-group">
 
 			  					<select class="form-control" name="productName[]" id="productName<?php echo $x; ?>" onchange="getProductData(<?php echo $x; ?>)" >
-			  						<option value="">~~SELECT~~</option>
+			  						<option value="">SELECT</option>
 			  						<?php
 			  							$productSql = "SELECT * FROM product WHERE active = 1 AND status = 1 AND quantity != 0";
 			  							$productData = $connect->query($productSql);
@@ -194,7 +194,7 @@ if($_GET['o'] == 'add') {
 				    <label for="clientContact" class="col-sm-3 control-label">Payment Type</label>
 				    <div class="col-sm-9">
 				      <select class="form-control" name="paymentType" id="paymentType">
-				      	<option value="">~~SELECT~~</option>
+				      	<option value="">SELECT</option>
 				      	<option value="1">Cheque</option>
 				      	<option value="2">Cash</option>
 				      	<option value="3">Credit Card</option>

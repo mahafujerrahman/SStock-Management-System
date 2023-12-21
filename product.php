@@ -216,7 +216,7 @@
 			        <div class="modal-footer editProductPhotoFooter">
 				        <button type="button" class="btn btn-default" data-dismiss="modal"> <i class="glyphicon glyphicon-remove-sign"></i> Close</button>
 				        
-				        <!-- <button type="submit" class="btn btn-success" id="editProductImageBtn" data-loading-text="Loading..."> <i class="glyphicon glyphicon-ok-sign"></i> Save Changes</button> -->
+				        <!-- <button type="submit" class="btn btn-danger" id="editProductImageBtn" data-loading-text="Loading..."> <i class="glyphicon glyphicon-ok-sign"></i> Save Changes</button> -->
 				      </div>
 				      <!-- /modal-footer -->
 				      </form>
