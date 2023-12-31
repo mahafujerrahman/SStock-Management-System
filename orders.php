@@ -182,6 +182,7 @@ if($_GET['o'] == 'add') {
 				    <div class="col-sm-9">
 				      <input type="text" class="form-control" id="paid" name="paid" autocomplete="off" onkeyup="paidAmount()" />
 				    </div>
+					
 				  </div> <!--/form-group-->			  
 				  <div class="form-group">
 				    <label for="due" class="col-sm-3 control-label">Due Amount</label>
@@ -189,6 +190,7 @@ if($_GET['o'] == 'add') {
 				      <input type="text" class="form-control" id="due" name="due" disabled="true" />
 				      <input type="hidden" class="form-control" id="dueValue" name="dueValue" />
 				    </div>
+					
 				  </div> <!--/form-group-->		
 				  <div class="form-group">
 				    <label for="clientContact" class="col-sm-3 control-label">Payment Type</label>
@@ -401,6 +403,7 @@ if($_GET['o'] == 'add') {
 				    <div class="col-sm-9">
 				      <input type="text" class="form-control" id="paid" name="paid" autocomplete="off" onkeyup="paidAmount()" value="<?php echo $data[9] ?>"  />
 				    </div>
+					
 				  </div> <!--/form-group-->			  
 				  <div class="form-group">
 				    <label for="due" class="col-sm-3 control-label">Due Amount</label>
@@ -408,6 +411,7 @@ if($_GET['o'] == 'add') {
 				      <input type="text" class="form-control" id="due" name="due" disabled="true" value="<?php echo $data[10] ?>"  />
 				      <input type="hidden" class="form-control" id="dueValue" name="dueValue" value="<?php echo $data[10] ?>"  />
 				    </div>
+
 				  </div> <!--/form-group-->		
 				  <div class="form-group">
 				    <label for="clientContact" class="col-sm-3 control-label">Payment Type</label>
@@ -430,7 +434,7 @@ if($_GET['o'] == 'add') {
 				    <label for="clientContact" class="col-sm-3 control-label">Payment Status</label>
 				    <div class="col-sm-9">
 				      <select class="form-control" name="paymentStatus" id="paymentStatus">
-				      	<option value="">SELECT</option>
+				      	<option value="">SELECT2</option>
 				      	<option value="1" <?php if($data[12] == 1) {
 				      		echo "selected";
 				      	} ?>  >Full Payment</option>
@@ -523,7 +527,7 @@ if($_GET['o'] == 'add') {
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-<!-- /edit order-->
+<!-- /edit order -->
 
 <!-- remove order -->
 <div class="modal fade" tabindex="-1" role="dialog" id="removeOrderModal">
