@@ -68,6 +68,8 @@ $(document).ready(function() {
 			
 		return false;
 	});
+	
+		// change Password
 
 	$("#changePasswordForm").unbind('submit').bind('submit', function() {
 

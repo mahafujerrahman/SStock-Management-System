@@ -40,7 +40,7 @@ $connect->close();
 <div class="row">
 	
 	<div class="col-md-4">
-		<div class="panel panel-success">
+	<div class="panel panel-danger text-white">
 			<div class="panel-heading">
 				
 				<a href="product.php" style="text-decoration:none;color:black;">
@@ -77,7 +77,7 @@ $connect->close();
 	</div> <!--/col-md-4-->
 
 	<div class="col-md-4">
-		<div class="card">
+	<div class="card bg-danger text-white">
 		  <div class="cardHeader">
 		    <h1><?php echo date('d'); ?></h1>
 		  </div>
@@ -89,7 +89,8 @@ $connect->close();
 		<br/>
 
 		<div class="card">
-		  <div class="cardHeader" style="background-color:#245580;">
+		  <div class="cardHeader" style="background-color:#800080;">
+		   <!-- #0000ff,#00ff00,#ffff00 (more color-->
 		    <h1><?php if($totalRevenue) {
 		    	echo $totalRevenue;
 		    	} else {
@@ -139,7 +140,7 @@ $connect->close();
           center: 'title'
         },
         buttonText: {
-          today: 'today',
+          today: 'Today',
           month: 'month'          
         }        
       });

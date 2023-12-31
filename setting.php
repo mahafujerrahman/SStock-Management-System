@@ -47,7 +47,7 @@
 					</fieldset>
 				</form>
 
-				<!-- <form action="php_action/changePassword.php" method="post" class="form-horizontal" id="changePasswordForm">
+				 <form action="php_action/changePassword.php" method="post" class="form-horizontal" id="changePasswordForm">
 					<fieldset>
 						<legend>Change Password</legend>
 
@@ -78,14 +78,14 @@
 					    <div class="col-sm-offset-2 col-sm-10">
 					    	<input type="hidden" name="user_id" id="user_id" value=" echo $_SESSION['userId'];" /> 
 					  
-					      <button type="submit" class="btn btn-primary"> <i class="glyphicon glyphicon-ok-sign"></i> Save Changes </button>
+					      <button type="submit" class="btn btn-success"> <i class="glyphicon glyphicon-ok-sign"></i> Save Changes </button>
 					      
 					    </div>
 					  </div>
 
 
 					</fieldset>
-				</form> -->
+				</form> 
 
 			</div> <!-- /panel-body -->		
 
