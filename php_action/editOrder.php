@@ -33,7 +33,7 @@ if($_POST) {
 			
 		while ($updateProductQuantityResult = $updateProductQuantityData->fetch_row()) {
 			// order item table add product quantity
-			$orderItemTableSql = "SELECT order_item.quantity FROM order_item WHERE order_item.order_id = {$orderId}";
+			$orderItemTableSql = "SELECT quantity FROM order_item WHERE order_id = {$orderId}";
 			$orderItemResult = $connect->query($orderItemTableSql);
 			$orderItemData = $orderItemResult->fetch_row();
 

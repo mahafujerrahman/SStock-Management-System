@@ -101,7 +101,7 @@
 				    <div class="col-sm-8">
 				      <select class="form-control" id="brandName" name="brandName">
 				      	<option value="">SELECT</option>
-				      	<?php 
+				      	<?php	
 				      	$sql = "SELECT brand_id, brand_name, brand_active, brand_status FROM brands WHERE brand_status = 1 AND brand_active = 1";
 								$result = $connect->query($sql);
 
